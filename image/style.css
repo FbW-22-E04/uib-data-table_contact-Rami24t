@@ -55,12 +55,11 @@ td:hover:before {
   background-color: rgba(255, 255, 255, 0.1);
   z-index: -1;
 }
-
-.amount {
+tbody td:nth-child(3) {
   text-align: right;
 }
-tbody tr td:nth-child(3) {
-  text-align: right;
+tbody tr:nth-child(even) td:nth-child(3) {
+  background-color: #55608f;
 }
 tr:nth-child(even) {
   background-color: rgb(87, 67, 153);
